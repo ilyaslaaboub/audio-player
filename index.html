@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Audio Player</title>
+    <link rel="icon" href="img/logo.jpg">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="audio_player">
+        <main>
+            <header id="header">       
+                <nav>
+                    <img src="img/logo.png">
+                    <h2 id="name">Music</h2>
+                    <p id="radio-title"></p>
+                </nav>
+            </header>
+
+            <article id="player_button">
+                <img src="img/back.png" id="back">
+                <img src="img/play.png" id="play">
+                <img src="img/next.png" id="next">
+            </article>
+
+            <article>
+                <audio src="msc/akil.mp3" id="audio_file"></audio>
+                <h2>the sound</h2>
+                <input id="volume_range" type="range" value="50" min="0" max="100" id="range">  
+                <h2>the speed</h2>
+                <input id="volume_speed" type="range" value="100" min="0" max="200" id="range">         
+            </article>
+
+            <article id="color">
+                    <button id="color1"></button>
+                    <button id="color2"></button>
+                    <button id="color3"></button>
+                    <button id="color4"></button>
+           </article>
+        </main>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/volume.js"></script>
+    <script src="js/color.js"></script>
+    
+</body>
+</html>
